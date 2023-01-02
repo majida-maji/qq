@@ -1,0 +1,40 @@
+{% extends 'adindex.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Syllabus</h4>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                            <th>sl_no</th>
+                          <th>date</th>
+                            <th>syllabus</th>
+                          <th>Download</th>
+                          <th>update</th>
+                          <th>delete</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for i in data %}
+                        <tr>
+                          <td class="py-1">{{ forloop.counter }}</td>
+                          <td>{{ i.date }}</td>
+
+                          <td>{{ i.add_syllabus }}</td>
+                          <td>
+                              <a href="{{i.add_syllabus}}"download>download</a>
+                          </td>
+                          <td><a href="{% url 'upsyllabus' i.id %}">update</a> </td>
+                          <td><a href="{% url 'delesyllabus' i.id %}">delete</a> </td>
+                        </tr>
+                      {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endblock %}

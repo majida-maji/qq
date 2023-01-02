@@ -1,0 +1,48 @@
+{% extends 'scgindex.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Mark</h4>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                            <th>sl_no</th>
+                            <th>student</th>
+                            <th>course</th>
+                            <th>department</th>
+                          <th>s1</th>
+                            <th>s2</th>
+                          <th>s3</th>
+                          <th>s4</th>
+                          <th>s5</th>
+                          <th>s6</th>
+
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for i in data %}
+                        <tr>
+                          <td class="py-1">{{ forloop.counter }}</td>
+                          <td>{{i.student}}</td>
+                          <td>{{ i.course }}</td>
+                          <td>{{ i.department}}</td>
+                          <td>{{ i.s1}}</td>
+                            <td>{{ i.s2}}</td>
+                            <td>{{ i.s3}}</td>
+                            <td>{{ i.s4}}</td>
+                            <td>{{ i.s5}}</td>
+                            <td>{{ i.s6}}</td>
+
+
+                        </tr>
+                      {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endblock %}
