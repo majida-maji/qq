@@ -1,167 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e7b8b31-6575-4527-ad45-db0d73791504" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/myschoolapp/parentview.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/admin/addteacherattendence.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/admin/apayment_history_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/admin/apcomplaintview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/admin/appointments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/admin/ascomplaintview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/admin/day_attendance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/admin/teacherat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/admin/teacherattendanceview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/admin/view_attendance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/addpay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/addpchat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/paddcomplaint.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/pappointment_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/paybill.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/payment_history_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/pchatview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/pcommunitygroupview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/pcomplaintview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/pexamresultview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/pexamtableview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/pmarkview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/pnotificationview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/pparentsmeetingview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/ptimetableview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/pupcomplaint.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/take_pappointment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/take_payment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/parent/view_bill_history.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/addassignment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/addhw.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/addproject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/addschat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/addseminar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/assignmentview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/hwview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/projectview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/sappointment_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/schatview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/scommunitygroupview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/seminarview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/snotificationview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/spaybill.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/spayment_history_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/take_sappointment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/upassignment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/uphw.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/upproject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/student/upseminar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/addassignmentmark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/addhwmark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/addnotification.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/addpreplay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/addprojectmark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/addseminarmark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/addsreplay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/addtpchat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/addtschat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/anotificationview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/appointment_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/parentappoinments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/studentappoinments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/take_appointment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/tassignmentview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/tdutyview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/thwview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/tpay_history_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/tpchatview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/tpcomplaintview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/tprojectview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/tschatview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/tscomplaintview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/tseminarview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/tstaffmeetingview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/teacher/upnotification.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/adminview.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/adminview.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0002_communitygroup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0003_teacherattendance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0004_auto_20221227_0728.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0005_studymaterial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0006_mark.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0007_note.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0008_complaint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/studentview.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/studentview.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/teacherview.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/teacherview.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myschoolapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/adindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/adindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/addcommunitygroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addcommunitygroup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/addcourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addcourse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/addduty.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addduty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/addexamresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addexamresult.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/addexamtable.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addexamtable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/addparentsmeeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addparentsmeeting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/addstaffmeeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addstaffmeeting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/addsyllabus.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addsyllabus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/addtimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addtimetable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/communitygroupview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/communitygroupview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/courseview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/courseview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/dutyview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/dutyview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/examresultview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/examresultview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/examtableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/examtableview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/parentsmeetingview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/parentsmeetingview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/staffmeetingview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/staffmeetingview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/syllabusview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/syllabusview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/teacherview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/teacherview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/timetableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/timetableview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/upcommunitygroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upcommunitygroup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/upcourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upcourse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/upduty.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upduty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/upexamresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upexamresult.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/upexamtable.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upexamtable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/upparentsmeeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upparentsmeeting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/upstaffmeeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upstaffmeeting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/upsyllabus.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upsyllabus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/uptimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/uptimetable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/pcgindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/pcgindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/pindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/pindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/scgindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/scgindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/sindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/sindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/addcomplaint.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/addcomplaint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/addnote.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/addnote.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/complaintview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/complaintview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/noteview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/noteview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/sexamresultview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/sexamresultview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/sexamtableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/sexamtableview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/smarkview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/smarkview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/sstudymaterialview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/sstudymaterialview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/ssyllabusview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/ssyllabusview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/stimetableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/stimetableview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/upcomplaint.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/upcomplaint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/student/upnote.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/upnote.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/tcgindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/tcgindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/addmark.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/addmark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/addstudymaterial.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/addstudymaterial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/addteacherattendance.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/communitygroupview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/communitygroupview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/dutyview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/markview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/markview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/parentview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/parentview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/staffmeetingview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/studentview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/studentview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/studymaterialview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/studymaterialview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/teacherattendanceview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/texamresultview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/texamresultview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/texamtableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/texamtableview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/tparentsmeetingview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/tparentsmeetingview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/tsyllabusview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/tsyllabusview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/ttimetableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/ttimetableview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/upmark.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/upmark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/upstudymaterial.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/upstudymaterial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/teacher/upteacherattendance.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/tindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/tindex.html" afterDir="false" />
-    </list>
+    <list default="true" id="7e7b8b31-6575-4527-ad45-db0d73791504" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tindex.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tindex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/tindex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="160" column="47" selection-start-line="160" selection-start-column="47" selection-end-line="160" selection-end-column="47" />
+            <state relative-caret-position="148">
+              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
             </state>
           </provider>
         </entry>
@@ -221,8 +61,8 @@
       <file leaf-file-name="adminview.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myschoolapp/adminview.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="62" column="14" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="14" />
+            <state relative-caret-position="165">
+              <caret line="58" column="19" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -242,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_attendance.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view_attendance.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/admin/view_attendance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="107">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -256,11 +96,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="teacherview.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myschoolapp/teacherview.py">
+      <file leaf-file-name="adindex.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/adindex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="50" selection-start-line="38" selection-end-line="50" />
+            <state relative-caret-position="105">
+              <caret line="386" column="50" selection-start-line="386" selection-start-column="50" selection-end-line="386" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -301,7 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>block</find>
       <find>&lt;div class=&quot;content-wrapper&quot;&gt;</find>
       <find>conte</find>
       <find>content</find>
@@ -331,6 +170,7 @@
       <find>teacherv</find>
       <find>teacherat</find>
       <find>attend</find>
+      <find>addteacher</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -518,7 +358,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="34" width="1382" height="702" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015129" side_tool="true" weight="0.29557523" />
@@ -526,8 +365,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49848714" visible="true" weight="0.29557523" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33736762" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49848714" visible="true" weight="0.29557523" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33736762" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
@@ -766,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/adindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6562">
-          <caret line="386" column="50" selection-start-line="386" selection-start-column="50" selection-end-line="386" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myschoolapp/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -796,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/view_attendance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myschoolapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -819,16 +644,6 @@
           <caret line="112" column="51" lean-forward="true" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myschoolapp/adminview.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="62" column="14" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -855,8 +670,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/tindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="160" column="47" selection-start-line="160" selection-start-column="47" selection-end-line="160" selection-end-column="47" />
+        <state relative-caret-position="148">
+          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/adindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="386" column="50" selection-start-line="386" selection-start-column="50" selection-end-line="386" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myschoolapp/adminview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/view_attendance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
