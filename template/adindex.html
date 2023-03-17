@@ -205,11 +205,37 @@
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="{% url 'managecommunitygroup' %}" class="menu-link">
+                  <a href="{% url 'appointment_admin' %}" class="menu-link">
                     <div data-i18n="Without menu">Manage</div>
                   </a>
                 </li>
               </ul>
+
+
+                <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-layout"></i>
+                <div data-i18n="Layouts">Payment</div>
+              </a>
+
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="{% url 'apayment_history_view' %}" class="menu-link">
+                    <div data-i18n="Without menu">History</div>
+                  </a>
+
+                </li>
+
+              </ul>
+
+
+
+
+
+
+
+
+
 
                 <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
@@ -349,11 +375,16 @@
               </a>
 
               <ul class="menu-sub">
-
+                </li>
+                <li class="menu-item">
+                  <a href="{% url 'teacherat' %}" class="menu-link">
+                    <div data-i18n="Without menu">Add</div>
+                  </a>
+                </li>
 
                 </li>
                 <li class="menu-item">
-                  <a href="{% static 'loginstatic/layouts-without-menu.html' %}" class="menu-link">
+                  <a href="{% url 'view_attendance' %}" class="menu-link">
                     <div data-i18n="Without menu">View</div>
                   </a>
                 </li>
@@ -362,21 +393,33 @@
                 <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-layout"></i>
-                <div data-i18n="Layouts">Complaint</div>
+                <div data-i18n="Layouts">Parents Complaint</div>
               </a>
 
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="{% static 'loginstatic/layouts-without-menu.html' %}" class="menu-link">
+                  <a href="{% url 'apcomplaintview' %}" class="menu-link">
                     <div data-i18n="Without menu">View</div>
                   </a>
 
                 </li>
+
+              </ul>
+
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-layout"></i>
+                <div data-i18n="Layouts">Students Complaint</div>
+              </a>
+
+              <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="{% static 'loginstatic/layouts-without-menu.html' %}" class="menu-link">
-                    <div data-i18n="Without menu">Replay</div>
+                  <a href="{% url 'ascomplaintview' %}" class="menu-link">
+                    <div data-i18n="Without menu">View</div>
                   </a>
+
                 </li>
+
               </ul>
 
                 </ul>
@@ -765,6 +808,7 @@
               </a>
             </div>
               {{request.user}}
+            <a class="btn btn-primary" style="position: absolute;right: 0"  href="{% url 'logoutview' %}"logOut>LogOut</a>
             <!--<div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">-->
               <!-- Search -->
               <!--<div class="navbar-nav align-items-center">-->

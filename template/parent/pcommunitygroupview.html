@@ -1,0 +1,40 @@
+{% extends 'pindex.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title" style="color: black"><u>Parent Community Group</u></h4>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                            <th>sl_no</th>
+                            <th>course name</th>
+                            <th>department</th>
+                            <th>join</th>
+
+
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for i in data %}
+                        <tr>
+                            <td class="py-1">{{ forloop.counter }}</td>
+                            <td>{{ i.course }}</td>
+                            <td>{{ i.department }}</td>
+                            <td><a type="submit" class="btn btn-primary"  href="{% url 'pjoin_community' i.id %}">join</a></td>
+
+
+
+
+
+                        </tr>
+                      {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endblock %}

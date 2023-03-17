@@ -1,0 +1,33 @@
+{% extends 'adindex.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 style="color: black" class="card-title"><u>View Teachers Attendance</u></h4>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                            <th>sl_no</th>
+                            <th>name</th>
+
+                            <th>view</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for attendance in attendances %}
+                        <tr>
+                            <td class="py-1">{{ forloop.counter }}</td>
+                            <td>{{attendance}}</td>
+
+                            <td><a href="{% url 'day_attendance' attendance %}">View</a></td>
+                        </tr>
+                      {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endblock %}

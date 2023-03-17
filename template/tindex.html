@@ -158,7 +158,7 @@
 
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="{% url 'addteacherattendance' %}" class="menu-link">
+                  <a href="{% url 'addteacherattandance' %}" class="menu-link">
                     <div data-i18n="Without menu">Add</div>
                   </a>
                 </li>
@@ -197,7 +197,38 @@
                   </a>
                 </li>
 
+                <li class="menu-item">
+                  <a href="{% url 'appointment_parent' %}" class="menu-link">
+                    <div data-i18n="Without menu">Manage</div>
+                  </a>
+                </li>
+
               </ul>
+
+             <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-layout"></i>
+                <div data-i18n="Layouts">Payment</div>
+              </a>
+
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="{% url 'addnotification'%}" class="menu-link">
+                    <div data-i18n="Without menu">Notification</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="{% url 'anotificationview'%}" class="menu-link">
+                    <div data-i18n="Without menu">View</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="{% url 'tpay_history_view' %}" class="menu-link">
+                    <div data-i18n="Without menu">Payment History</div>
+                  </a>
+                </li>
+              </ul>
+
 
                   <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
@@ -212,31 +243,49 @@
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="{% static 'loginstatic/layouts-without-menu.html' %}" class="menu-link">
+                  <a href="{% url 'appointment_view' %}" class="menu-link">
                     <div data-i18n="Without menu">Join</div>
                   </a>
                 </li>
+                <li class="menu-item">
+                  <a href="{% url 'appointment_teacher' %}" class="menu-link">
+                    <div data-i18n="Without menu">Manage</div>
+                  </a>
+                </li>
+
               </ul>
 
 
                   <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-layout"></i>
-                <div data-i18n="Layouts">Complaint</div>
+                <div data-i18n="Layouts">Parents Complaint</div>
               </a>
 
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="{% static 'loginstatic/layouts-without-menu.html' %}" class="menu-link">
+                  <a href="{% url 'tpcomplaintview' %}" class="menu-link">
                     <div data-i18n="Without menu">View</div>
                   </a>
                 </li>
+
+              </ul>
+
+               <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-layout"></i>
+                <div data-i18n="Layouts">Student Complaint</div>
+              </a>
+
+              <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="{% static 'loginstatic/layouts-without-menu.html' %}" class="menu-link">
-                    <div data-i18n="Without menu">Replay</div>
+                  <a href="{% url 'tscomplaintview' %}" class="menu-link">
+                    <div data-i18n="Without menu">View</div>
                   </a>
                 </li>
+
               </ul>
+
 
 
                   <li class="menu-item">
@@ -248,7 +297,7 @@
               <ul class="menu-sub">
 
                 <li class="menu-item">
-                  <a href="{% url 'staffmeetingview' %}" class="menu-link">
+                  <a href="{% url 'tstaffmeetingview' %}" class="menu-link">
                     <div data-i18n="Without menu">View</div>
                   </a>
                 </li>
@@ -264,7 +313,7 @@
               <ul class="menu-sub">
 
                 <li class="menu-item">
-                  <a href="{% url 'dutyview' %}" class="menu-link">
+                  <a href="{% url 'tdutyview' %}" class="menu-link">
                     <div data-i18n="Without menu">View</div>
                   </a>
                 </li>
@@ -291,6 +340,7 @@
               <h1>
                 {{request.user}}
               </h1>
+            <a class="btn btn-primary" style="position: absolute;right: 0"  href="{% url 'logoutview' %}"logOut>LogOut</a>
 
 
                <div class="flex-grow-1">

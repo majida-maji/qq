@@ -4,3 +4,5 @@ from django.contrib import admin
 from myschoolapp import models
 
 admin.site.register(models.Course)
+admin.site.register(models.Notification)
+admin.site.register(models.TeacherAttendance)

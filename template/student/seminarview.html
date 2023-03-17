@@ -1,0 +1,53 @@
+{% extends 'scgindex.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title" style="color: black"><u>Seminar</u></h4>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                            <th>sl_no</th>
+                          <th>course</th>
+                            <th>department</th>
+                          <th>date</th>
+                            <th>subject</th>
+                            <th>Download</th>
+                          <th>Mark</th>
+                          <th>Update</th>
+                          <th>Delete</th>
+
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for i in data %}
+                        <tr>
+                          <td class="py-1">{{ forloop.counter }}</td>
+                          <td>{{ i.course }}</td>
+                          <td>{{ i.department}}</td>
+                          <td>{{ i.date }}</td>
+                          <td>{{ i.subject}}</td>
+                          <td>
+                              <a class="btn btn-primary" href="{{i.seminar}}"download>download</a>
+                          </td>
+
+                          <td>{% if i.replay == None %}
+                          <p>No mark added yet</p>
+                            {% else %}
+                            {{i.replay}}
+                            {% endif %}
+                          </td>
+                          <td><button class="btn btn-success" href="{% url 'upseminar' i.id %}">update</button> </td>
+                          <td><button class="btn btn-danger" href="{% url 'deleseminar' i.id %}">delete</button> </td>
+
+                        </tr>
+                      {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endblock %}

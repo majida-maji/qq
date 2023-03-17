@@ -4,7 +4,7 @@
 <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Community group</h4>
+                    <h4 class="card-title" style="color: black"><u>Community Group</u></h4>
                   <div class="table-responsive">
                     <table class="table table-striped">
                       <thead>
@@ -23,7 +23,7 @@
                             <td class="py-1">{{ forloop.counter }}</td>
                             <td>{{ i.course }}</td>
                             <td>{{ i.department }}</td>
-                            <td><button class="btn btn-primary"  href="{% url 'communitygroupview' %}">join</button></td>
+                            <td><a type="submit" class="btn btn-primary"  href="{% url 'join_community' i.id %}">join</a></td>
 
 
 

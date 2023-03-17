@@ -4,7 +4,8 @@ from django.contrib.auth.forms import UserCreationForm
 
 from myschoolapp.models import Login, TeacherLogin, StudentLogin, ParentLogin, Course, Syllabus, TimeTable, ExamTable, \
     Duty, ExamResult, StaffMeeting, ParentsMeeting, CommunityGroup, TeacherAttendance, StudyMaterial, Mark, Note, \
-    Complaint
+    Complaint, Project, Assignment, Seminar, Hw, ParentComplaint, Notification, Schat, Pchat, Bill, DirectPay, \
+    OnlinePayment
 
 
 class LoginReg(UserCreationForm):
@@ -99,13 +100,17 @@ class communitygroupform(forms.ModelForm):
     department=forms.ChoiceField(choices=dep_choice)
     class Meta:
         model=CommunityGroup
-        fields='__all__'
+        exclude=('status',)
+at_choice=(
 
+    ('yes','yes'),
+    ('no','no')
+)
 class teacherattendanceform(forms.ModelForm):
-
+    attendance=forms.ChoiceField(choices=at_choice,required=True,widget=forms.RadioSelect)
     class Meta:
         model =TeacherAttendance
-        fields = '__all__'
+        exclude=('attendance','teacher','student',)
 
 class studymaterial(forms.ModelForm):
     department = forms.ChoiceField(choices=dep_choice)
@@ -117,7 +122,7 @@ class markform(forms.ModelForm):
     department=forms.ChoiceField(choices=dep_choice)
     class Meta:
         model=Mark
-        fields='__all__'
+        exclude=('status',)
 
 class noteform(forms.ModelForm):
     department = forms.ChoiceField(choices=dep_choice)
@@ -129,4 +134,92 @@ class complaintform(forms.ModelForm):
     department = forms.ChoiceField(choices=dep_choice)
     class Meta:
         model=Complaint
+        exclude=('user','replay',)
+
+class projectform(forms.ModelForm):
+    department = forms.ChoiceField(choices=dep_choice)
+    class Meta:
+        model=Project
+        exclude=('user','replay',)
+
+class assignmentform(forms.ModelForm):
+    department = forms.ChoiceField(choices=dep_choice)
+    class Meta:
+        model=Assignment
+        exclude=('user','replay',)
+
+
+class seminarform(forms.ModelForm):
+    department = forms.ChoiceField(choices=dep_choice)
+    class Meta:
+        model=Seminar
+        exclude = ('user','replay',)
+
+class hwform(forms.ModelForm):
+    department = forms.ChoiceField(choices=dep_choice)
+    class Meta:
+        model=Hw
+        exclude=('user','replay',)
+
+
+class parentcomplaintform(forms.ModelForm):
+    department = forms.ChoiceField(choices=dep_choice)
+    class Meta:
+        model=ParentComplaint
+        exclude=('user','replay',)
+
+
+class notificationform(forms.ModelForm):
+    last_date=forms.DateField(widget=DateInput)
+    department = forms.ChoiceField(choices=dep_choice)
+
+    class Meta:
+        model=Notification
+        exclude=('user','pay','status','student_name','paid_on',)
+
+
+class directpayform(forms.ModelForm):
+    class Meta:
+        model=DirectPay
+        exclude=('status',)
+
+
+class billform(forms.ModelForm):
+    class Meta:
+        model=Bill
+        exclude=('status','paid_on',)
+
+# class paymentform(forms.ModelForm):
+#
+#     department = forms.ChoiceField(choices=dep_choice)
+#     class Meta:
+#         model=Payment
+#         exclude=('user','pay','status',)
+#
+# class addbillform(forms.ModelForm):
+#     class Meta:
+#         model=Bill
+#         exclude=('status','payed_on',)
+#
+# class adddetailsform(forms.ModelForm):
+#     department=forms.ChoiceField(choices=dep_choice)
+#     class Meta:
+#         model=Notification
+#         exclude=('last_date','status','notification','pay','user',)
+#
+#
+class onlinepaymentform(forms.ModelForm):
+    exp_date= forms.DateField(widget=DateInput)
+    class Meta:
+        model=OnlinePayment
         fields='__all__'
+
+class schatform(forms.ModelForm):
+    class Meta:
+        model=Schat
+        exclude=('user',)
+
+class pchatform(forms.ModelForm):
+    class Meta:
+        model=Pchat
+        exclude=('user',)

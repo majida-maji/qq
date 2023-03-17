@@ -1,0 +1,52 @@
+{% extends 'scgindex.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title" style="color: black"><u>Parent Complaint</u></h4>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                            <th>sl_no</th>
+                            <th>course</th>
+                            <th>department</th>
+
+                            <th>student name</th>
+                            <th>fee content</th>
+                            <th>amount</th>
+                            <th>paid on</th>
+                            <th>status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for i in data %}
+                        <tr>
+                          <td class="py-1">{{ forloop.counter }}</td>
+                          <td>{{i.course}}</td>
+                            <td>{{i.department}}</td>
+
+                          <td>{{i.name_and_email}}</td>
+                          <td>{{ i.notification}}</td>
+                          <td>{{ i.amount}}</td>
+                          <td>{{ i.paid_on}}</td>
+                          <td>
+                              {% if i.status == 0 %}
+                              <p style="color: red"><b><u>Pending</u></b></p>
+                              {% elif i.status == 1 %}
+                                <p style="color:green;"><b>Paid</b></p>
+                                {% elif i.status == 2  %}
+                              <p style="color: blue"><b>Direct Paid</b></p>
+                                {% endif %}
+                          </td>
+
+                        </tr>
+                      {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endblock %}

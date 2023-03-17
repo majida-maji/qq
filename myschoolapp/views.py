@@ -1,5 +1,5 @@
 from django.contrib import messages
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 
 from django.shortcuts import render, redirect
 
@@ -30,6 +30,11 @@ def loginpage(request):
             messages.info(request,"user is not found")
     return render(request,'login.html')
 
+
+def logoutview(request):
+    logout(request)
+    messages.info(request,"logout successsfully!")
+    return  redirect("loginpage")
 
 def treg(request):
     user_form=LoginReg()

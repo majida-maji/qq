@@ -2,7 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7b8b31-6575-4527-ad45-db0d73791504" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/myschoolapp/parentview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/admin/addteacherattendence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/admin/apayment_history_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/admin/apcomplaintview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/admin/appointments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/admin/ascomplaintview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/admin/day_attendance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/admin/teacherat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/admin/teacherattendanceview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/admin/view_attendance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/addpay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/addpchat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/paddcomplaint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/pappointment_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/paybill.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/payment_history_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/pchatview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/pcommunitygroupview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/pcomplaintview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/pexamresultview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/pexamtableview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/pmarkview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/pnotificationview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/pparentsmeetingview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/ptimetableview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/pupcomplaint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/take_pappointment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/take_payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/parent/view_bill_history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/addassignment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/addhw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/addproject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/addschat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/addseminar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/assignmentview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/hwview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/projectview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/sappointment_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/schatview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/scommunitygroupview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/seminarview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/snotificationview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/spaybill.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/spayment_history_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/take_sappointment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/upassignment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/uphw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/upproject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/student/upseminar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/addassignmentmark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/addhwmark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/addnotification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/addpreplay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/addprojectmark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/addseminarmark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/addsreplay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/addtpchat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/addtschat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/anotificationview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/appointment_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/parentappoinments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/studentappoinments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/take_appointment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/tassignmentview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/tdutyview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/thwview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/tpay_history_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/tpchatview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/tpcomplaintview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/tprojectview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/tschatview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/tscomplaintview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/tseminarview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/tstaffmeetingview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/teacher/upnotification.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/adminview.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/adminview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0002_communitygroup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0003_teacherattendance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0004_auto_20221227_0728.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0005_studymaterial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0006_mark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0007_note.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/migrations/0008_complaint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/studentview.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/studentview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/teacherview.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/teacherview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myschoolapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myschoolapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/adindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/adindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/addcommunitygroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addcommunitygroup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/addcourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addcourse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/addduty.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addduty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/addexamresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addexamresult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/addexamtable.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addexamtable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/addparentsmeeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addparentsmeeting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/addstaffmeeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addstaffmeeting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/addsyllabus.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addsyllabus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/addtimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/addtimetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/communitygroupview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/communitygroupview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/courseview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/courseview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/dutyview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/dutyview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/examresultview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/examresultview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/examtableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/examtableview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/parentsmeetingview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/parentsmeetingview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/staffmeetingview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/staffmeetingview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/syllabusview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/syllabusview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/teacherview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/teacherview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/timetableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/timetableview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/upcommunitygroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upcommunitygroup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/upcourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upcourse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/upduty.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upduty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/upexamresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upexamresult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/upexamtable.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upexamtable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/upparentsmeeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upparentsmeeting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/upstaffmeeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upstaffmeeting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/upsyllabus.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/upsyllabus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/uptimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/uptimetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/pcgindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/pcgindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/pindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/pindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/scgindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/scgindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/sindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/sindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/addcomplaint.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/addcomplaint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/addnote.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/addnote.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/complaintview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/complaintview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/noteview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/noteview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/sexamresultview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/sexamresultview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/sexamtableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/sexamtableview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/smarkview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/smarkview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/sstudymaterialview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/sstudymaterialview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/ssyllabusview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/ssyllabusview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/stimetableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/stimetableview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/upcomplaint.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/upcomplaint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/student/upnote.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/student/upnote.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/tcgindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/tcgindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/addmark.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/addmark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/addstudymaterial.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/addstudymaterial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/addteacherattendance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/communitygroupview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/communitygroupview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/dutyview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/markview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/markview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/parentview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/parentview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/staffmeetingview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/studentview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/studentview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/studymaterialview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/studymaterialview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/teacherattendanceview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/texamresultview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/texamresultview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/texamtableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/texamtableview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/tparentsmeetingview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/tparentsmeetingview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/tsyllabusview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/tsyllabusview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/ttimetableview.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/ttimetableview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/upmark.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/upmark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/upstudymaterial.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/teacher/upstudymaterial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/teacher/upteacherattendance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/tindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/tindex.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,14 +185,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myschoolapp/models.py">
+      <file leaf-file-name="addteacherattendence.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/admin/addteacherattendence.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2873">
-              <caret line="170" column="11" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="11" />
+            <state relative-caret-position="102">
+              <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tindex.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/tindex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="160" column="47" selection-start-line="160" selection-start-column="47" selection-end-line="160" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -42,10 +209,69 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myschoolapp/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2108">
-              <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
+            <state relative-caret-position="175">
+              <caret line="112" column="51" lean-forward="true" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminview.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myschoolapp/adminview.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="62" column="14" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day_attendance.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/admin/day_attendance.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+              <folding>
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_attendance.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/admin/view_attendance.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myschoolapp/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="teacherview.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myschoolapp/teacherview.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="50" selection-start-line="38" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myschoolapp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="143" column="28" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,76 +280,10 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myschoolapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2278">
-              <caret line="136" column="80" selection-start-line="136" selection-start-column="80" selection-end-line="136" selection-end-column="80" />
+            <state relative-caret-position="107">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="noteview.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/student/noteview.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="26" selection-end-line="45" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scgindex.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/scgindex.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6953">
-              <caret line="409" column="47" selection-start-line="409" selection-start-column="47" selection-end-line="409" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addcomplaint.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/student/addcomplaint.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="6" selection-end-line="17" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upcomplaint.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/student/upcomplaint.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="complaintview.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template/student/complaintview.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addnote.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/student/addnote.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="9" selection-end-line="17" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="studentview.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myschoolapp/studentview.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,18 +301,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>src</find>
-      <find>banner</find>
-      <find>.png</find>
-      <find>fonts</find>
-      <find>html</find>
-      <find>js</find>
-      <find>libs</find>
-      <find>assets</find>
-      <find>content-wrapper</find>
       <find>block</find>
       <find>&lt;div class=&quot;content-wrapper&quot;&gt;</find>
       <find>conte</find>
+      <find>content</find>
+      <find>appointmentview</find>
+      <find>seminarv</find>
+      <find>hwv</find>
+      <find>admi</find>
+      <find>hi</find>
+      <find>comm</find>
+      <find>ass</find>
+      <find>assignmentv</find>
+      <find>projectview</find>
+      <find>add</find>
+      <find>seminarview</find>
+      <find>tp</find>
+      <find>pj</find>
+      <find>take</find>
+      <find>row</find>
+      <find>take_payment</find>
+      <find>deta</find>
+      <find>read</find>
+      <find>dutyview</find>
+      <find>staffmeetingview</find>
+      <find>req</find>
+      <find>att</find>
+      <find>TEA</find>
+      <find>teacherv</find>
+      <find>teacherat</find>
+      <find>attend</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,57 +339,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/template/admin/upparentsmeeting.html" />
-        <option value="$PROJECT_DIR$/template/admin/upstaffmeeting.html" />
-        <option value="$PROJECT_DIR$/template/admin/parentsmeetingview.html" />
-        <option value="$PROJECT_DIR$/template/admin/addcommunitygroup.html" />
-        <option value="$PROJECT_DIR$/template/admin/upcommunitygroup.html" />
-        <option value="$PROJECT_DIR$/template/admin/communitygroupview.html" />
-        <option value="$PROJECT_DIR$/template/teacher/studentview.html" />
+        <option value="$PROJECT_DIR$/template/student/sexamtableview.html" />
+        <option value="$PROJECT_DIR$/template/student/smarkview.html" />
+        <option value="$PROJECT_DIR$/template/student/snotificationview.html" />
+        <option value="$PROJECT_DIR$/template/student/spaybill.html" />
+        <option value="$PROJECT_DIR$/template/student/spayment_history_view.html" />
+        <option value="$PROJECT_DIR$/template/student/sstudymaterialview.html" />
+        <option value="$PROJECT_DIR$/template/student/ssyllabusview.html" />
+        <option value="$PROJECT_DIR$/template/student/stimetableview.html" />
+        <option value="$PROJECT_DIR$/template/student/take_sappointment.html" />
+        <option value="$PROJECT_DIR$/template/student/upassignment.html" />
+        <option value="$PROJECT_DIR$/template/student/upcomplaint.html" />
+        <option value="$PROJECT_DIR$/template/student/uphw.html" />
+        <option value="$PROJECT_DIR$/template/student/upnote.html" />
+        <option value="$PROJECT_DIR$/template/student/upproject.html" />
+        <option value="$PROJECT_DIR$/template/student/upseminar.html" />
         <option value="$PROJECT_DIR$/template/teacher/parentview.html" />
-        <option value="$PROJECT_DIR$/template/admin/staffmeetingview.html" />
-        <option value="$PROJECT_DIR$/template/teacher/staffmeetingview.html" />
-        <option value="$PROJECT_DIR$/template/teacher/dutyview.html" />
-        <option value="$PROJECT_DIR$/template/teacher/addteacherattendance.html" />
-        <option value="$PROJECT_DIR$/template/teacher/teacherattendanceview.html" />
-        <option value="$PROJECT_DIR$/template/teacher/upteacherattendance.html" />
-        <option value="$PROJECT_DIR$/template/teacher/addcommunitygroup.html" />
-        <option value="$PROJECT_DIR$/template/tindex.html" />
-        <option value="$PROJECT_DIR$/template/teacher/communitygroupview.html" />
-        <option value="$PROJECT_DIR$/template/adindex.html" />
-        <option value="$PROJECT_DIR$/template/admin/managecommunitygroup.html" />
-        <option value="$PROJECT_DIR$/myschoolapp/adminview.py" />
+        <option value="$PROJECT_DIR$/template/teacher/studentappoinments.html" />
+        <option value="$PROJECT_DIR$/template/teacher/studymaterialview.html" />
+        <option value="$PROJECT_DIR$/template/teacher/take_appointment.html" />
+        <option value="$PROJECT_DIR$/template/teacher/tassignmentview.html" />
+        <option value="$PROJECT_DIR$/template/teacher/tdutyview.html" />
+        <option value="$PROJECT_DIR$/template/teacher/texamresultview.html" />
         <option value="$PROJECT_DIR$/template/teacher/texamtableview.html" />
+        <option value="$PROJECT_DIR$/template/teacher/thwview.html" />
+        <option value="$PROJECT_DIR$/template/teacher/tparentsmeetingview.html" />
+        <option value="$PROJECT_DIR$/template/teacher/tpay_history_view.html" />
+        <option value="$PROJECT_DIR$/template/teacher/tpcomplaintview.html" />
+        <option value="$PROJECT_DIR$/template/teacher/tprojectview.html" />
+        <option value="$PROJECT_DIR$/template/teacher/tscomplaintview.html" />
+        <option value="$PROJECT_DIR$/template/teacher/tseminarview.html" />
         <option value="$PROJECT_DIR$/template/teacher/tsyllabusview.html" />
         <option value="$PROJECT_DIR$/template/teacher/ttimetableview.html" />
-        <option value="$PROJECT_DIR$/template/teacher/tparentsmeetingview.html" />
-        <option value="$PROJECT_DIR$/template/teacher/addstudymaterial.html" />
-        <option value="$PROJECT_DIR$/template/teacher/upstudymaterial.html" />
-        <option value="$PROJECT_DIR$/template/teacher/addmark.html" />
         <option value="$PROJECT_DIR$/template/teacher/upmark.html" />
-        <option value="$PROJECT_DIR$/template/teacher/markview.html" />
+        <option value="$PROJECT_DIR$/template/teacher/upnotification.html" />
+        <option value="$PROJECT_DIR$/template/teacher/upstudymaterial.html" />
+        <option value="$PROJECT_DIR$/template/teacher/upteacherattendance.html" />
         <option value="$PROJECT_DIR$/myschoolapp/teacherview.py" />
-        <option value="$PROJECT_DIR$/template/tcgindex.html" />
-        <option value="$PROJECT_DIR$/template/admin/examresultview.html" />
-        <option value="$PROJECT_DIR$/template/teacher/texamresultview.html" />
-        <option value="$PROJECT_DIR$/template/student/ssyllabusview.html" />
-        <option value="$PROJECT_DIR$/template/student/sexamtableview.html" />
-        <option value="$PROJECT_DIR$/template/student/stimetableview.html" />
-        <option value="$PROJECT_DIR$/template/teacher/studymaterialview.html" />
-        <option value="$PROJECT_DIR$/template/student/sstudymaterialview.html" />
-        <option value="$PROJECT_DIR$/template/student/smarkview.html" />
-        <option value="$PROJECT_DIR$/template/student/sexamresultview.html" />
-        <option value="$PROJECT_DIR$/template/student/addnote.html" />
-        <option value="$PROJECT_DIR$/template/student/upnote.html" />
-        <option value="$PROJECT_DIR$/template/student/noteview.html" />
-        <option value="$PROJECT_DIR$/myschoolapp/models.py" />
-        <option value="$PROJECT_DIR$/myschoolapp/forms.py" />
-        <option value="$PROJECT_DIR$/myschoolapp/studentview.py" />
+        <option value="$PROJECT_DIR$/myschoolapp/admin.py" />
+        <option value="$PROJECT_DIR$/template/teacher/addteacherattendance.html" />
+        <option value="$PROJECT_DIR$/template/teacher/teacherattendanceview.html" />
+        <option value="$PROJECT_DIR$/template/admin/day_attendance.html" />
+        <option value="$PROJECT_DIR$/template/admin/teacherattendanceview.html" />
+        <option value="$PROJECT_DIR$/template/admin/teacherat.html" />
+        <option value="$PROJECT_DIR$/template/adindex.html" />
         <option value="$PROJECT_DIR$/myschoolapp/urls.py" />
-        <option value="$PROJECT_DIR$/template/scgindex.html" />
-        <option value="$PROJECT_DIR$/template/student/addcomplaint.html" />
-        <option value="$PROJECT_DIR$/template/student/upcomplaint.html" />
-        <option value="$PROJECT_DIR$/template/student/complaintview.html" />
+        <option value="$PROJECT_DIR$/template/admin/view_attendance.html" />
+        <option value="$PROJECT_DIR$/myschoolapp/adminview.py" />
+        <option value="$PROJECT_DIR$/myschoolapp/forms.py" />
+        <option value="$PROJECT_DIR$/template/admin/addteacherattendence.html" />
+        <option value="$PROJECT_DIR$/myschoolapp/models.py" />
+        <option value="$PROJECT_DIR$/template/tindex.html" />
       </list>
     </option>
   </component>
@@ -256,7 +434,25 @@
             <path>
               <item name="myschool" type="b2602c69:ProjectViewProjectNode" />
               <item name="myschool" type="462c0819:PsiDirectoryNode" />
+              <item name="myschoolapp" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myschool" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myschool" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myschool" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myschool" type="b2602c69:ProjectViewProjectNode" />
@@ -280,6 +476,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -321,15 +518,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="34" width="1382" height="702" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.32920355" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015129" side_tool="true" weight="0.29557523" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" visible="true" weight="0.32920355" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35325265" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49848714" visible="true" weight="0.29557523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33736762" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
@@ -344,29 +542,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31240544" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.32920355" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.32920355" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -374,367 +549,314 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template/teacher/addcommunitygroup.html" />
-    <entry file="file://$PROJECT_DIR$/template/admin/upcommunitygroup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/tindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="209" column="53" selection-start-line="209" selection-start-column="53" selection-end-line="209" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/dutyview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/dutyview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/communitygroupview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/communitygroupview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/managecommunitygroup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/addcommunitygroup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/examtableview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="24" lean-forward="true" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/teacherattendanceview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/timetableview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="29" column="25" lean-forward="true" selection-end-line="44" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/parentsmeetingview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="30" column="18" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/tparentsmeetingview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myschoolapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/addsyllabus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="6" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/syllabusview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="21" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/upsyllabus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/upstudymaterial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/addmark.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/upmark.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/teacher/studentview.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/studymaterialview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="39" column="75" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+        <state relative-caret-position="102">
+          <caret line="6" column="83" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myschoolapp/adminview.py">
+    <entry file="file://$PROJECT_DIR$/template/teacher/take_appointment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="170" column="68" lean-forward="true" selection-start-line="168" selection-end-line="170" selection-end-column="68" />
+        <state relative-caret-position="102">
+          <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/tcgindex.html">
+    <entry file="file://$PROJECT_DIR$/template/teacher/tassignmentview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="259" column="50" selection-start-line="259" selection-start-column="50" selection-end-line="259" selection-end-column="50" />
+        <state relative-caret-position="102">
+          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/examresultview.html">
+    <entry file="file://$PROJECT_DIR$/template/teacher/tdutyview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="55" lean-forward="true" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/adindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="864" column="26" lean-forward="true" selection-start-line="863" selection-start-column="12" selection-end-line="864" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/texamtableview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/tsyllabusview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/ssyllabusview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/sexamtableview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/ttimetableview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-end-line="42" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/stimetableview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/sstudymaterialview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/markview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="32" column="11" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/smarkview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/teacher/texamresultview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="28" column="14" selection-end-line="41" selection-end-column="14" />
+        <state relative-caret-position="102">
+          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/sexamresultview.html">
+    <entry file="file://$PROJECT_DIR$/template/teacher/texamtableview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/thwview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/tparentsmeetingview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="83" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/tpay_history_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="86" selection-start-line="6" selection-start-column="86" selection-end-line="6" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/tpchatview.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/tprojectview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/tschatview.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/tscomplaintview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/tseminarview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/tstaffmeetingview.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/tsyllabusview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/ttimetableview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/upmark.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/upnotification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/parent/paybill.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" lean-forward="true" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/upteacherattendance.html" />
+    <entry file="file://$PROJECT_DIR$/template/teacher/upstudymaterial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/addhwmark.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/addmark.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/addnotification.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/addassignmentmark.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/addteacherattendance.html" />
+    <entry file="file://$PROJECT_DIR$/template/teacher/teacherattendanceview.html" />
+    <entry file="file://$PROJECT_DIR$/template/admin/addtimetable.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/ascomplaintview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="33" column="29" selection-start-line="33" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/teacher/tpcomplaintview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/teacherview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/teacherattendanceview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/dutyview.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myschool/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/communitygroupview.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myschoolapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/teacherat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="8" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/adindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6562">
+          <caret line="386" column="50" selection-start-line="386" selection-start-column="50" selection-end-line="386" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myschoolapp/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/myschoolapp/teacherview.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="110" column="40" selection-start-line="85" selection-end-line="110" selection-end-column="40" />
+        <state relative-caret-position="339">
+          <caret line="50" selection-start-line="38" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/addstudymaterial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/myschoolapp/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/upnote.html">
+    <entry file="file://$PROJECT_DIR$/template/admin/day_attendance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/teacher/studymaterialview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="6" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myschoolapp/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
+        <state relative-caret-position="228">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myschoolapp/studentview.py">
+    <entry file="file://$PROJECT_DIR$/template/admin/view_attendance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myschoolapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2278">
-          <caret line="136" column="80" selection-start-line="136" selection-start-column="80" selection-end-line="136" selection-end-column="80" />
+        <state relative-caret-position="107">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/scgindex.html">
+    <entry file="file://$PROJECT_DIR$/myschoolapp/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6953">
-          <caret line="409" column="47" selection-start-line="409" selection-start-column="47" selection-end-line="409" selection-end-column="47" />
+        <state relative-caret-position="175">
+          <caret line="112" column="51" lean-forward="true" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/addnote.html">
+    <entry file="file://$PROJECT_DIR$/myschoolapp/adminview.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="107">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/addcomplaint.html">
+    <entry file="file://$PROJECT_DIR$/template/admin/addteacherattendence.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/upcomplaint.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/noteview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="26" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="102">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myschoolapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2873">
-          <caret line="170" column="11" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="11" />
+        <state relative-caret-position="160">
+          <caret line="143" column="28" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="28" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/student/complaintview.html">
+    <entry file="file://$PROJECT_DIR$/template/tindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+        <state relative-caret-position="282">
+          <caret line="160" column="47" selection-start-line="160" selection-start-column="47" selection-end-line="160" selection-end-column="47" />
         </state>
       </provider>
     </entry>

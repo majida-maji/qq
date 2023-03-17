@@ -4,7 +4,7 @@
 <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Mark</h4>
+                  <h4 class="card-title" style="color: black"><u>Mark</u></h4>
                   <div class="table-responsive">
                     <table class="table table-striped">
                       <thead>
@@ -19,6 +19,8 @@
                           <th>s4</th>
                           <th>s5</th>
                           <th>s6</th>
+                          <th>total</th>
+                          <th>status</th>
 
                         </tr>
                       </thead>
@@ -29,12 +31,62 @@
                           <td>{{i.student}}</td>
                           <td>{{ i.course }}</td>
                           <td>{{ i.department}}</td>
-                          <td>{{ i.s1}}</td>
-                            <td>{{ i.s2}}</td>
-                            <td>{{ i.s3}}</td>
-                            <td>{{ i.s4}}</td>
-                            <td>{{ i.s5}}</td>
-                            <td>{{ i.s6}}</td>
+                          <td>
+                            {% if i.s1 <= 35 %}
+                            <p style="color: red">{{i.s1}}</p>
+                            {% else %}
+                            <p style="color: green">{{i.s1}}</p>
+                            {% endif %}
+                            </td>
+
+                            <td>{% if i.s2 <= 35 %}
+                            <p style="color: red">{{i.2}}</p>
+                            {% else %}
+                            <p style="color: green">{{i.s2}}</p>
+                            {% endif %}
+                            </td>
+
+                            <td>
+                              {% if i.s3 <= 35 %}
+                            <p style="color: red">{{i.s3}}</p>
+                            {% else %}
+                            <p style="color: green">{{i.s3}}</p>
+                            {% endif %}
+                            </td>
+
+                            <td>
+                              {% if i.s4 <= 35 %}
+                            <p style="color: red">{{i.s4}}</p>
+                            {% else %}
+                            <p style="color: green">{{i.s4}}</p>
+                            {% endif %}
+                            </td>
+
+                            <td>{% if i.s5 <= 35 %}
+                            <p style="color: red">{{i.s5}}</p>
+                            {% else %}
+                            <p style="color: green">{{i.s5}}</p>
+                            {% endif %}
+                            </td>
+
+                            <td>
+                              {% if i.s6 < 35 %}
+                            <p style="color: red">{{i.s6}}</p>
+                            {% else %}
+                            <p style="color: green">{{i.s6}}</p>
+                            {% endif %}
+                            </td>
+                            <td>
+                              {{i.total}}
+                              </td>
+                          <td>
+                            {% if i.s1 < 35 or i.s2 < 35 or i.s3 < 35 or i.s4 < 35 or i.s5 < 35 or i.s6 < 35 %}
+                              <p style="color: red">Fail</p>
+                            {% else %}
+                              <p style="color: green">Pass</p>
+                            {% endif %}
+                          </td>
+
 
 
                         </tr>

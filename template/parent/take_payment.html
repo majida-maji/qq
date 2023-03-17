@@ -1,0 +1,25 @@
+{% extends 'pcgindex.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title" style="color: black"><u>Direct Pay</u></h4>
+                  <form method="post">
+                      {% csrf_token %}
+                      <div class="d-grid gap-3 p-4">
+                          <label>card no</label>
+                          <input type="number">
+                          <label>cvv</label>
+                          <input type="number">
+                          <label>amount</label>
+                          <input type="number">
+                          <div class="d-grid gap-3 d-md-block">
+                              <a type="submit" href="{% url 'pnotificationview' %}" class="btn btn-success">pay</a>
+                          </div>
+                      </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+{% endblock %}

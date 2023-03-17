@@ -1,0 +1,54 @@
+{% extends 'scgindex.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title" style="color: black"><u>Project</u></h4>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                            <th>sl_no</th>
+                            <th>course</th>
+                            <th>department</th>
+                          <th>date</th>
+                            <th>subject</th>
+                            <th>Project</th>
+                            <th>Mark</th>
+                          <th>update</th>
+                          <th>delete</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for i in data %}
+                        <tr>
+                          <td class="py-1">{{ forloop.counter }}</td>
+                          <td>{{ i.course }}</td>
+                          <td>{{ i.department}}</td>
+                          <td>{{ i.date }}</td>
+                          <td>{{ i.subject}}</td>
+                          <td>
+                            <a class="btn btn-primary" href="{{i.project}}"download>download</a>
+                          </td>
+
+                          <td>{% if i.replay == None %}
+                          <p>No mark added yet</p>
+                            {% else %}
+                            {{i.replay}}
+                            {% endif %}
+                          </td>
+
+
+
+                          <td><a class="btn btn-success" href="{% url 'upproject' i.id %}">update</a> </td>
+                          <td><a class="btn btn-danger" href="{% url 'deleproject' i.id %}">delete</a> </td>
+                        </tr>
+                      {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endblock %}

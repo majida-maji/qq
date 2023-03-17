@@ -1,10 +1,11 @@
 from django.urls import path
 
-from myschoolapp import views, adminview, teacherview, studentview
+from myschoolapp import views, adminview, teacherview, studentview, parentview
 
 urlpatterns = [
     path('',views.index,name='index'),
     path('loginpage',views.loginpage,name='loginpage'),
+    path('logoutview',views.logoutview,name='logoutview'),
     path('treg',views.treg,name='treg'),
     path('sreg',views.sreg,name='sreg'),
     path('preg',views.preg,name='preg'),
@@ -16,13 +17,19 @@ urlpatterns = [
     path('scgindex',views.scgindex,name='scgindex'),
     path('pcgindex',views.pcgindex,name='pcgindex'),
     path('teacherview',adminview.teacherview,name='teacherview'),
+    path('teacherat',adminview.teacherat,name='teacherat'),
     path('dele/<int:id>/',adminview.dele,name='dele'),
 
 
-    path('addteacherattendance',teacherview.addteacherattendance,name='addteacherattendance'),
-    path('teacherattendanceview',teacherview.teacherattendanceview,name='teacherattendanceview'),
-    path('upteacherattendance/<int:id>/',teacherview.upteacherattendance,name='upteacherattendance'),
-    path('deleteacherattendance/<int:id>/',teacherview.deleteacherattendance,name='deleteacherattendance'),
+
+    # path('add_attendance',adminview.add_attendance,name='add_attendance'),
+    # path('teacherattendanceview',adminview.teacherattendanceview,name='teacherattendanceview'),
+    path('mark/<int:id>',adminview.mark,name='mark'),
+    path('view_attendance',adminview.view_attendance,name='view_attendance'),
+    path('day_attendance/<date>',adminview.day_attendance,name='day_attendance'),
+    # path('day_attendance',adminview.day_attendance,name='day_attendance'),
+    # path('upteacherattendance/<int:id>/',teacherview.upteacherattendance,name='upteacherattendance'),
+    # path('deleteacherattendance/<int:id>/',teacherview.deleteacherattendance,name='deleteacherattendance'),
 
 
 
@@ -35,8 +42,8 @@ urlpatterns = [
 
     path('parentview',teacherview.parentview,name='parentview'),
 
-    path('staffmeetingview',teacherview.staffmeetingview,name='staffmeetingview'),
-    path('dutyview',teacherview.dutyview,name='dutyview'),
+    path('tstaffmeetingview',teacherview.tstaffmeetingview,name='tstaffmeetingview'),
+    path('tdutyview',teacherview.tdutyview,name='tdutyview'),
     path('communitygroupview',teacherview.communitygroupview,name='communitygroupview'),
 
 
@@ -116,6 +123,14 @@ urlpatterns = [
     path('delemark/<int:id>/',teacherview.delemark,name='delemark'),
 
     path('texamresultview',teacherview.texamresultview,name='texamresultview'),
+    path('tprojectview',teacherview.tprojectview,name='tprojectview'),
+    path('addprojectmark/<int:id>/',teacherview.addprojectmark,name='addprojectmark'),
+    path('tassignmentview',teacherview.tassignmentview,name='tassignmentview'),
+    path('addassignmentmark/<int:id>/',teacherview.addassignmentmark,name='addassignmentmark'),
+    path('tseminarview',teacherview.tseminarview,name='tseminarview'),
+    path('addseminarmark/<int:id>/',teacherview.addseminarmark,name='addseminarmark'),
+    path('thwview',teacherview.thwview,name='thwview'),
+    path('addhwmark/<int:id>/',teacherview.addhwmark,name='addhwmark'),
 
 
     path('ssyllabusview',studentview.ssyllabusview,name='ssyllabusview'),
@@ -135,6 +150,120 @@ urlpatterns = [
     path('complaintview',studentview.complaintview,name='complaintview'),
     path('upcomplaint/<int:id>/',studentview.upcomplaint,name='upcomplaint'),
     path('delecomplaint/<int:id>/',studentview.delecomplaint,name='delecomplaint'),
+
+
+    path('addproject',studentview.addproject,name='addproject'),
+    path('projectview',studentview.projectview,name='projectview'),
+    path('upproject/<int:id>/',studentview.upproject,name='upproject'),
+    path('deleproject/<int:id>/',studentview.deleproject,name='deleproject'),
+
+    path('addassignment',studentview.addassignment,name='addassignment'),
+    path('assignmentview',studentview.assignmentview,name='assignmentview'),
+    path('upassignment/<int:id>/',studentview.upassignment,name='upassignment'),
+    path('deleassignment/<int:id>/',studentview.deleassignment,name='deleassignment'),
+
+    path('addseminar',studentview.addseminar,name='addseminar'),
+    path('seminarview',studentview.seminarview,name='seminarview'),
+    path('upseminar/<int:id>/',studentview.upseminar,name='upseminar'),
+    path('deleseminar/<int:id>/',studentview.deleseminar,name='deleseminar'),
+
+
+    path('addhw',studentview.addhw,name='addhw'),
+    path('hwview',studentview.hwview,name='hwview'),
+    path('uphw/<int:id>/',studentview.uphw,name='uphw'),
+    path('delehw/<int:id>/',studentview.delehw,name='delehw'),
+
+    path('appointment_admin',adminview.appointment_admin,name='appointment_admin'),
+    path('appointment_view',teacherview.appointment_view,name='appointment_view'),
+    path('join_community/<int:id>/',teacherview.join_community,name='join_community'),
+    path('approve_appointment/<int:id>/',adminview.approve_appointment,name='approve_appointment'),
+    path('reject_appointment/<int:id>/',adminview.reject_appointment,name='reject_appointment'),
+
+
+
+    path('pexamtableview',parentview.pexamtableview,name='pexamtableview'),
+    path('ptimetableview',parentview.ptimetableview,name='ptimetableview'),
+    path('pmarkview',parentview.pmarkview,name='pmarkview'),
+    path('pexamresultview',parentview.pexamresultview,name='pexamresultview'),
+    path('pparentsmeetingview',parentview.pparentsmeetingview,name='pparentsmeetingview'),
+
+    path('scommunitygroupview',studentview.scommunitygroupview,name='scommunitygroupview'),
+    path('appointment_teacher',teacherview.appointment_teacher,name='appointment_teacher'),
+    # path('studentappointments',teacherview.studentappointments,name='studentappointments'),
+    path('sappointment_view',studentview.sappointment_view,name='sappointment_view'),
+    path('sjoin_community/<int:id>/',studentview.sjoin_community,name='sjoin_community'),
+    path('tapprove_appointment/<int:id>/',teacherview.tapprove_appointment,name='tapprove_appointment'),
+    path('treject_appointment/<int:id>/',teacherview.treject_appointment,name='treject_appointment'),
+
+
+    path('pcommunitygroupview',parentview.pcommunitygroupview,name='pcommunitygroupview'),
+    path('pjoin_community/<int:id>/',parentview.pjoin_community, name='pjoin_community'),
+    path('pappointment_view',parentview.pappointment_view,name='pappointment_view'),
+    path('appointment_parent',teacherview.appointment_parent,name='appointment_parent'),
+    path('papprove_appointment/<int:id>/',teacherview.papprove_appointment,name='papprove_appointment'),
+    path('preject_appointment/<int:id>/',teacherview.preject_appointment,name='preject_appointment'),
+
+
+
+    path('pnotificationview',parentview.pnotificationview,name='pnotificationview'),
+    path('payment_details',adminview.payment_details,name='payment_details'),
+    path('pay_bill/<int:id>/',parentview.pay_bill,name='pay_bill'),
+    path('pay_in_direct/<int:id>/',parentview.pay_in_direct,name='pay_in_direct'),
+    path('pay_history_view',parentview.pay_history_view,name='pay_history_view'),
+    path('tpay_history_view',teacherview.tpay_history_view,name='tpay_history_view'),
+
+    path('snotificationview',studentview.snotificationview,name='snotificationview'),
+    # path('payment_details',studentview.payment_details,name='payment_details'),
+    path('spay_bill/<int:id>/',studentview.spay_bill,name='spay_bill'),
+    path('spay_in_direct/<int:id>/',studentview.spay_in_direct,name='spay_in_direct'),
+    path('spay_history_view', studentview.spay_history_view, name='spay_history_view'),
+    path('apayment_history_view', adminview.apayment_history_view, name='apayment_history_view'),
+    # path('addpay',parentview.addpay,name='addpay'),
+    # path('pay_in_direct',parentview.pay_in_direct,name='pay_in_direct'),
+    # path('addpayment',parentview.addpayment,name='addpayment'),
+    # path('adddetails',parentview.adddetails,name='adddetails'),
+    # path('viewdetails',parentview.viewdetails,name='viewdetails'),
+    # path('onlinepayment',parentview.onlinepayment,name='onlinepayment'),
+    # path('directpay',parentview.directpay,name='directpay'),
+
+    # path('newpay',parentview.newpay,name='newpay'),
+
+    path('paddcomplaint',parentview.paddcomplaint, name='paddcomplaint'),
+    path('pcomplaintview',parentview.pcomplaintview, name='pcomplaintview'),
+    path('pupcomplaint/<int:id>/',parentview.pupcomplaint, name='pupcomplaint'),
+    path('pdelecomplaint/<int:id>/',parentview.pdelecomplaint, name='pdelecomplaint'),
+
+
+    path('tpcomplaintview',teacherview.tpcomplaintview, name='tpcomplaintview'),
+    path('addpreplay/<int:id>/',teacherview.addpreplay,name='addpreplay'),
+    path('apcomplaintview',adminview.apcomplaintview, name='apcomplaintview'),
+
+    path('tscomplaintview',teacherview.tscomplaintview, name='tscomplaintview'),
+    path('addsreplay/<int:id>/',teacherview.addsreplay,name='addsreplay'),
+    path('ascomplaintview',adminview.ascomplaintview, name='ascomplaintview'),
+
+
+    path('addnotification',teacherview.addnotification,name='addnotification'),
+    path('anotificationview',teacherview.anotificationview,name='anotificationview'),
+    path('upnotification/<int:id>/',teacherview.upnotification,name='upnotification'),
+    path('delenotification/<int:id>/',teacherview.delenotification,name='delenotification'),
+
+
+
+    # path('addbill',adminview.addbill,name='addbill'),
+    # path('viewbill',adminview.viewbill,name='viewbill'),
+
+    path('addschat',studentview.addschat,name='addschat'),
+    path('schatview',studentview.schatview,name='schatview'),
+
+    path('addtschat',teacherview.addtschat,name='addtschat'),
+    path('tschatview',teacherview.tschatview,name='tschatview'),
+
+    path('addpchat',parentview.addpchat,name='addpchat'),
+    path('pchatview',parentview.pchatview,name='pchatview'),
+
+    path('addtpchat', teacherview.addtpchat, name='addtpchat'),
+    path('tpchatview', teacherview.tpchatview, name='tpchatview'),
 
 
 ]

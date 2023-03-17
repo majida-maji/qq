@@ -1,0 +1,43 @@
+{% extends 'pcgindex.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title" style="color: black"><u>Time Table</u></h4>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                            <th>sl_no</th>
+                          <th>course</th>
+                          <th>department</th>
+                          <th>mon</th>
+                          <th>tue</th>
+                          <th>wed</th>
+                          <th>thu</th>
+                          <th>fri</th>
+
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for i in data %}
+                        <tr>
+                          <td class="py-1">{{ forloop.counter }}</td>
+                          <td>{{ i.course }}</td>
+                          <td>{{ i.department }}</td>
+                          <td>{{ i.mon }}</td>
+                          <td>{{ i.tue}}</td>
+                          <td>{{ i.wed}}</td>
+                          <td>{{ i.thu}}</td>
+                          <td>{{ i.fri }}</td>
+
+                        </tr>
+                      {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endblock %}
